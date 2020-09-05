@@ -1,0 +1,668 @@
+/*  Gglobal  */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  border: 0;
+  background: transparent;
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+}
+
+
+
+
+/*  Nav  */
+header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  padding: 9px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(36, 35, 35); 
+  
+  height: 80px;
+}
+
+header a{
+  font-size: small;
+}
+
+header a .logo{
+  padding-left: 263px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  padding-right: 263px;
+}
+
+nav li{
+  list-style-type:none ;
+  margin-left: 25px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+ text-decoration: underline;
+}
+
+.logo{
+  margin: 0 auto;
+  padding: 7px;
+  position: relative;
+}
+
+/*  FUNDO IMG  */
+#fundoimg{
+  margin-top: 80px;
+}
+#fundoimg a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+}
+#fundoimg a img{
+  width: 100%;
+  max-width: 100%;
+}
+
+
+
+
+
+
+/*  Linhas home */
+.titleLinhasHome{
+  text-decoration: underline;
+  color: #E5B911;
+  text-align: center;
+  margin-top: 60px;
+  font-weight: 700;
+}
+
+.Lcamisas{
+  margin-top: 60px;
+  margin-left: 433px;
+}
+
+.camisa1{
+  max-width: 340px;
+}
+
+.camisa2{
+  max-width: 340px;
+}
+
+.moletom{
+  max-width: 340px;
+}
+
+.amarelo{
+  background: #E5B911;
+  display: flex;
+  padding: 25px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -4px;
+}
+.CamisaC{
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-left: 400px;
+  margin-bottom: 50px;
+}
+
+.MoletomF{
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-right: 410px;
+  margin-bottom: 50px;
+}
+
+.CamisaE{
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  width: 100%;
+  text-align: center; 
+  margin-bottom: 50px;
+}
+.esportiva{
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.casual{
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.frio{
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.amarelo h1{
+  color:rgb(36, 35, 35); 
+}
+
+.amarelo p{
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+
+
+
+
+
+/*  Portifólio home  */
+#portifolio .titlePortHome{
+  background: rgb(36, 35, 35);
+  margin-top: -4px;
+}
+
+.titlePortHome{
+  text-decoration: underline;
+  color: #E5B911;
+  text-align: center;
+  padding: 50px;
+  font-weight: 900;
+  margin-bottom: -45px;
+}
+
+.PretoPort{
+  background: rgb(36, 35, 35);
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgPortHome{
+  max-width: 550px;
+  margin-left: 380px;
+}
+
+.textosPort{
+  margin-top: 25px;
+  margin-bottom: 50px;
+  width: 100%;
+  margin-right: 445px;
+}
+
+.textosPort h1{
+  color: rgb(233, 220, 220);
+  font-size: 45px;
+  margin-bottom: 45px;
+}
+
+.textosPort p{
+  color: rgb(221, 203, 203);
+  font-weight: 400;
+  font-size: 18px;
+  word-spacing: 1px;
+
+}
+
+
+
+.PortHome p{
+  margin-right: 1010px;
+  width: 100%;
+  text-align: center;
+}
+
+.btnPortHome{
+  background: rgb(36, 35, 35);
+  text-align: center;
+  padding: 50px;
+  margin-top: 0px auto;
+  margin-bottom: -50px;
+}
+
+.btnPortHome .btn{
+  background-color: #E5B911;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.titulo2{
+  color: #E5B911;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.btnhover :hover{
+  background-color: #c09d0f;
+}
+
+
+
+
+
+
+
+/*  Sobre home  */
+
+#sobre .titleSobreHome{
+  background: #E5B911;
+  margin-top: 50px;
+}
+
+.titleSobreHome{
+  text-decoration: underline;
+  color: rgb(36, 35, 35);
+  text-align: center;
+  padding: 50px;
+  font-weight: 900;
+  margin-bottom: -45px;
+}
+
+.AmareloSobre{
+  background:#E5B911;
+  display: flex;
+  padding: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgSobreHome{
+  max-width: 600px;
+  margin-right: 330px;
+}
+
+.SobreHome h1{
+  margin-top: -70px;
+  font-size: 40px;
+  margin-bottom: 70px;
+  margin-left: 480px;
+  width: 100%;
+  
+}
+
+.SobreHome p{
+  width: 100%;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 500;
+  word-spacing: 1px;
+  margin-top: 5px;
+  margin-left: 0px auto;
+}
+
+.btnSobreHome{
+  background: #E5B911;
+  text-align: center;
+  margin-top: 0px auto;
+  height: 120px;
+}
+  
+.btnSobreHome .btnSobre{
+  background-color: rgb(36, 35, 35);
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  color:white
+}
+
+
+
+
+
+
+
+/*  NOSSAS LINHAS  */
+
+#LinhasDescrição .titleLinhasDescrição{
+  background: transparent;
+  margin-top: -6px;
+}
+
+.titleLinhasDescrição{
+  text-decoration: underline;
+  text-align: center;
+  padding: 50px;
+  font-weight: 900;
+  margin-bottom: 50px;
+  color: rgb(36, 35, 35);
+}
+
+
+
+.btnLinhasDescrição{
+  background: transparent;
+  text-align: center;
+  padding: 60px;
+  margin-bottom: -50px;
+}
+  
+.btnLinhasDescrição .btnLinhas{
+  background-color: #E5B911;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(36, 35, 35);
+  margin-top: 10px;
+}
+
+
+.linhasDescrição{
+  margin-left: 395px;
+  margin-top: -70px;
+}
+
+.linha1{
+  max-width: 100%;
+}
+.imgLinhasHome1{
+  width: 800px;
+}
+
+.imgLinhasHome2{
+  width: 252px;
+}
+
+
+.linha2{
+  max-width: 100%;
+}
+.imgLinhasHome4{
+  width: 800px;
+}
+.imgLinhasHome3{
+  width: 252px;
+}
+
+
+.linha3{
+  max-width: 100%;
+}
+.imgLinhasHome5{
+  width: 800px;
+}
+.imgLinhasHome6{
+  width: 252px;
+}
+
+
+.btnLinhasDescrição .btnLinhas:hover{
+  background-color: #c09d0f;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(36, 35, 35);
+  margin-top: 10px;
+}
+
+.titulo2Linhas{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+
+
+
+/*  DEPOIMENTOS  */
+
+#depoimentos .titleDep{
+  background: #E5B911;
+  margin-top: 40px;
+}
+
+.titleDep{
+  text-decoration: underline;
+  text-align: center;
+  padding: 50px;
+  font-weight: 900;
+  margin-bottom: 50px;
+  color: rgb(36, 35, 35);
+}
+
+.AllDepoimentos{
+  background:#E5B911;
+  display: flex;
+  padding: 55px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -117px;
+  
+}
+
+.depoimento1{
+  background: rgb(36, 35, 35);
+  height: 250px;
+  width: 270px;
+  margin-left: 340px;
+}
+.depoimento2{
+  background: rgb(36, 35, 35);
+  height: 250px;
+  width: 270px;
+  margin-right: 5px;
+}
+.depoimento3{
+  background: rgb(36, 35, 35);
+  height: 250px;
+  width: 270px;
+  margin-right: 3px;
+}
+.depoimento4{
+  background: rgb(36, 35, 35);
+  height: 250px;
+  width: 270px;
+  margin-right: 340px;
+}
+
+.depoimento1 h1{
+  color:rgb(207, 194, 194);
+  font-weight: 600;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 13px;
+}
+
+.depoimento1 .descDep{
+  color:rgb(207, 194, 194);
+  font-weight: 500;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 13px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.depoimento1 .nomeDep{
+  color:rgb(207, 194, 194);
+  font-weight: 600;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 13px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.depoimento2 h1{
+  color:rgb(207, 194, 194);
+  font-weight: 600;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 13px;
+}
+
+.depoimento2 .descDep2{
+  color:rgb(207, 194, 194);
+  font-weight: 500;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 13px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.depoimento2 .nomeDep2{
+  color:rgb(207, 194, 194);
+  font-weight: 600;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 13px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.depoimento3 h1{
+  color:rgb(207, 194, 194);
+  font-weight: 600;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 13px;
+}
+
+.depoimento3 .descDep3{
+  color:rgb(207, 194, 194);
+  font-weight: 500;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 13px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.depoimento3 .nomeDep3{
+  color:rgb(207, 194, 194);
+  font-weight: 600;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 13px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.depoimento4 h1{
+  color:rgb(207, 194, 194);
+  font-weight: 600;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 13px;
+}
+
+.depoimento4 .descDep4{
+  color:rgb(207, 194, 194);
+  font-weight: 500;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 13px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.depoimento4 .nomeDep4{
+  color:rgb(207, 194, 194);
+  font-weight: 600;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 13px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+/*  footer  */
+
+#rodape .titles{
+  background: rgb(36, 35, 35);
+  margin-top: 0px auto;
+}
+
+.titles{
+  text-align: center;
+  padding: 20px;
+  font-weight: 900;
+  margin-bottom: 50px;
+  color: rgb(223, 208, 208);
+  display: flex;
+
+}
+
+.icons{
+  display: flex;
+  max-width:100%;;
+}
+
+.imgTiktok{
+  width: 60px;
+  margin-left: 710px;
+  margin-top: -30px;
+}
+
+.imgTwwiter{
+  width: 65px;
+  margin-left: 20px;
+  margin-top: -30px;
+}
+
+.imgInstragram{
+  width: 55px;
+  height: 55px;
+  margin-top: 9px;
+  margin-left: 20px;
+}
+
+.redes{
+  margin-left: 720px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.contact{
+  margin-left: 30px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.DescContact{
+  background:rgb(36, 35, 35);
+  display: flex;
+  margin-top: -57px;
+}
+
+.MeiosContato{
+  color:rgb(235, 224, 224);
+  margin-left: 30px;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.MeiosContato p{
+  font-weight: 200;
+}
+
