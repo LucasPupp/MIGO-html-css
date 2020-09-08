@@ -4,32 +4,28 @@
   padding: 0;
   box-sizing: border-box;
   outline: 0;
-  text-decoration: none;
-  list-style: none;
-  border: 0;
-  background: transparent;
   font-family: "Montserrat",sans-serif;
   font-weight: bold;
 }
 
-
-
-
 /*  Nav  */
-header{
+
+
+header .container{
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-
   padding: 9px;
   text-align: center;
   display: flex;
   justify-content: space-between;
-  background: rgb(36, 35, 35); 
+  background-color: #181717;
+
   
   height: 80px;
 }
+
 
 header a{
   font-size: small;
@@ -65,6 +61,94 @@ a:hover{
   position: relative;
 }
 
+
+
+/*  footer  */
+
+#rodape .titles{
+  background: rgb(36, 35, 35);
+  margin-top: 0px auto;
+}
+
+.titles{
+
+  padding: 20px;
+  font-weight: 900;
+  margin-bottom: 50px;
+  color: rgb(223, 208, 208);
+  display: flex;
+
+}
+
+.icons{
+  display: flex;
+  max-width:100%;;
+}
+
+.imgTiktok{
+  width: 60px;
+  margin-left: 755px;
+  margin-top: -30px;
+}
+
+.imgTwwiter{
+  width: 65px;
+  margin-left: 20px;
+  margin-top: -30px;
+}
+
+.imgInstragram{
+  width: 55px;
+  height: 55px;
+  margin-top: 9px;
+  margin-left: 20px;
+}
+
+.redes{
+  margin-left: 763px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.contact{
+  margin-left: 30px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.DescContact{
+  background:rgb(36, 35, 35);
+  display: flex;
+  margin-top: -57px;
+}
+
+.MeiosContato{
+  color:rgb(235, 224, 224);
+  margin-left: 30px;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.MeiosContato p{
+  font-weight: 200;
+}
+  
+
+/*  IMAGEM DEBAIXO DO NAV, DAS PÁGINAS  */
+.position{
+  display: inline-block;
+  position: relative;
+}
+
+.fundoSobre{
+  margin-top: 0px auto;
+
+}
+
+/*  -------------------------------------------------------------------------------------  */
+
+/* ========================= PAGINA HOME =================== */
+
 /*  FUNDO IMG  */
 #fundoimg{
   margin-top: 80px;
@@ -80,10 +164,6 @@ a:hover{
   width: 100%;
   max-width: 100%;
 }
-
-
-
-
 
 
 /*  Linhas home */
@@ -178,10 +258,6 @@ a:hover{
 }
 
 
-
-
-
-
 /*  Portifólio home  */
 #portifolio .titlePortHome{
   background: rgb(36, 35, 35);
@@ -232,7 +308,6 @@ a:hover{
 }
 
 
-
 .PortHome p{
   margin-right: 1010px;
   width: 100%;
@@ -265,11 +340,6 @@ a:hover{
 .btnhover :hover{
   background-color: #c09d0f;
 }
-
-
-
-
-
 
 
 /*  Sobre home  */
@@ -333,12 +403,8 @@ a:hover{
   height: 60px;
   font-size: 20px;
   font-weight: 700;
-  color:white
+  color:white;
 }
-
-
-
-
 
 
 
@@ -431,10 +497,6 @@ a:hover{
   font-weight: 500;
   font-size: 20px;
 }
-
-
-
-
 
 /*  DEPOIMENTOS  */
 
@@ -592,77 +654,691 @@ a:hover{
   letter-spacing: 1px;
 }
 
+/*  -------------------------------------------------------------------------- */
 
+/* ============================ PAGINA SOBRE ======================= */
 
+/* img fundo */
 
-
-/*  footer  */
-
-#rodape .titles{
-  background: rgb(36, 35, 35);
-  margin-top: 0px auto;
+.TextosSobrePag{
+  position: absolute;
+  color:rgb(231, 219, 219);
 }
 
-.titles{
+.TitleImgSobre{
+  margin-top: 50px ;
+  font-size: 35px;
+  margin-left: 855px;
+  text-decoration: underline;
+}
+
+.imgSobrePag img{
+  width: 100%;
+  
+}
+
+.titulo2SobrePag{
+  margin-top: 20px;
+  margin-left: 640px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+
+
+
+/* Valores - missão - visão */
+
+#Valores .titleValoresMissao{
+  background: transparent;
+  margin-top: -20px;
+}
+
+.titleValoresMissao{
+  text-decoration: underline;
+  color: rgb(36, 35, 35);
   text-align: center;
-  padding: 20px;
+  padding: 50px;
+  margin-bottom: -45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.missao{
+  margin-left: 450px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.valor{
+  margin-right: 520px;
+}
+
+.txtMissãoeVisão {
+  margin-top: 20px;
+  margin-left: 500px;
+  font-weight: 400;
+  word-spacing: 5px;
+  font-size: 18px;
+}
+
+.ValorMissao{
+  display: flex;
+}
+
+.txtValor{
+  margin-top: 20px;
+  margin-left: 190px;
+  font-weight: 400;
+  word-spacing: 5px;
+  font-size: 18px;
+}
+
+
+
+/* de universitário para uiniversitário */
+
+#História .titleUniversitario{
+  background: #E5B911;
+  margin-top: 50px;
+}
+
+.titleUniversitario{
+  text-decoration: underline;
+  color: rgb(36, 35, 35);
+  text-align: center;
+  padding: 50px;
   font-weight: 900;
-  margin-bottom: 50px;
-  color: rgb(223, 208, 208);
-  display: flex;
-
+  margin-bottom: -45px;
+  font-size: 18px;
 }
 
-.icons{
+.AmareloHistória{
+  background:#E5B911;
   display: flex;
-  max-width:100%;;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.imgTiktok{
-  width: 60px;
-  margin-left: 710px;
+.imgHistória img{
+  width: 600px;
+  margin-right: 300px;
   margin-top: -30px;
 }
 
-.imgTwwiter{
-  width: 65px;
-  margin-left: 20px;
-  margin-top: -30px;
+.titleHistória h1{
+  margin-top: -50px;
+  font-size: 40px;
+  margin-bottom: 40px;
+  margin-left: 520px;
+  width: 100%;
+  
 }
 
-.imgInstragram{
-  width: 55px;
-  height: 55px;
-  margin-top: 9px;
-  margin-left: 20px;
-}
-
-.redes{
-  margin-left: 720px;
-  font-size: 12px;
-  margin-top: 10px;
-}
-
-.contact{
-  margin-left: 30px;
-  font-size: 12px;
-  margin-top: 10px;
-}
-
-.DescContact{
-  background:rgb(36, 35, 35);
-  display: flex;
-  margin-top: -57px;
-}
-
-.MeiosContato{
-  color:rgb(235, 224, 224);
-  margin-left: 30px;
+.txtHistória {
+  width: 100%;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 500;
+  word-spacing: 1px;
   margin-top: 5px;
+  margin-left: 0px auto;
+}
+
+
+
+
+
+/* ---------------- PAGINA PRODUTOS ---------------- */
+
+/* img fundo */
+.TextosProdutosPag{
+  position: absolute;
+  color:rgb(231, 219, 219);
+}
+
+.TitleImgProdutos{
+  margin-top: 50px ;
+  font-size: 35px;
+  margin-left: 800px;
+  text-decoration: underline;
+}
+
+.imgProdutosPag img{
+  width: 100%;
+  
+}
+
+.titulo2ProdutosPag{
+  margin-top: 20px;
+  margin-left: 650px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+
+
+
+/* CASUAL */
+
+#LinhasCasual .titleLinhasCasual{
+  background: transparent;
+  margin-top: -6px;
+}
+
+.titleLinhasCasual h1{
+  text-decoration: underline;
+  text-align: center;
+  padding: 50px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: rgb(36, 35, 35);
+  font-size: 40px;
+}
+
+
+
+.btnLinhasDescrição{
+  background: transparent;
+  text-align: center;
+  padding: 60px;
+  margin-bottom: -10px;
+}
+  
+.btnLinhasDescrição .btnLinhas{
+  background-color: rgb(36, 35, 35);
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(228, 214, 214);
+  margin-top: 10px;
+}
+
+
+.linhasCasual{
+  margin-left: 385px;
+  margin-top: -70px;
+}
+
+.linha1{
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.imgCasualHome1{
+  width: 800px;
+}
+
+.imgCasualHome2{
+  width: 350px;
+  margin-left: 20px;
+}
+
+
+.linha2{
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.imgCasualHome4{
+  width: 800px;
+  margin-left: 20px;
+}
+.imgCasualHome3{
+  width: 350px;
+  
+}
+
+
+.linha3{
+  max-width: 100%;
+}
+.imgCasualHome5{
+  width: 800px;
+}
+.imgCasualHome6{
+  width: 350px;
+  margin-left: 20px;
+}
+
+
+.btnLinhasDescrição .btnLinhas:hover{
+  background-color: #c09d0f;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(36, 35, 35);
+  margin-top: 10px;
+}
+
+.titulo2Linhas{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+
+/* Esportivo */
+
+#LinhasEsportivo .titleEsportivo{
+  background: rgb(36, 35, 35);
+  margin-top: -6px;
+}
+
+.titleEsportivo h1{
+  text-decoration: underline;
+  text-align: center;
+  padding: 50px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  color: rgb(245, 238, 238);
+  font-size: 40px;
+}
+
+.titulo2Esportivo{
+  color: rgb(251, 246, 246);
+  background: rgb(36, 35, 35);
+  text-align: center;
+  margin-top: -110px;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 40px;
+}
+
+.btnEsportivo{
+  background: rgb(36, 35, 35);
+  text-align: center;
+  padding: 60px;
+  margin-bottom: -10px;
+}
+  
+.btnEsportivo .btnEsportivoLink{
+  background-color: #E5B911;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(22, 21, 21);
+  margin-top: 10px;
+}
+.btnEsportivo .btnEsportivoLink:hover{
+  background-color: #e6e3da;
+  color: rgb(22, 21, 21);  
+}
+
+.LinhasEsportivo2{
+  margin-top: -70px;
+  background-color: rgb(36, 35, 35);
+  margin-top: 0px ;
+}
+
+.linha1Esp{
+  max-width: 100%;
+  margin-bottom: 20px;
+  margin-left: 385px;
+}
+.imgEsportivo1{
+  width: 800px;
+}
+
+.imgEsportivo2{
+  width: 350px;
+  margin-left: 20px;
+}
+
+
+.linha2Esp{
+  max-width: 100%;
+  margin-bottom: 20px;
+  margin-left: 385px;
+  
+}
+.imgEsportivo4{
+  width: 800px;
+  margin-left: 20px;
+}
+.imgEsportivo3{
+  width: 350px;
+  
+}
+
+
+.linha3Esp{
+  max-width: 100%;
+  margin-left: 385px;
+}
+.imgEsportivo5{
+  width: 800px;
+}
+.imgEsportivo6{
+  width: 350px;
+  margin-left: 20px;
+}
+
+.btnLinhasDescrição .btnLinhas:hover{
+  background-color: #c09d0f;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(36, 35, 35);
+  margin-top: 10px;
+}
+
+.titulo2Linhas{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+
+/* Frio */
+
+#LinhasFrio .titleFrio{
+  background: transparent;
+  margin-top: -6px;
+}
+
+.titleFrio h1{
+  text-decoration: underline;
+  text-align: center;
+  padding: 50px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: rgb(19, 18, 18);
+  font-size: 40px;
+}
+
+.titulo2Frio{
+  color: rgb(19, 18, 18);
+  background:transparent;
+  text-align: center;
+  margin-top: -110px;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 30px;
+}
+
+.ImgFrioPag{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgFrio1{
+  height: 230px;
+  margin-left: 210px;
+}
+
+.imgFrio2{
+  height: 230px;
+  margin-right: 3px;
+}
+
+.imgFrio3{
+  height: 230px;
+  margin-right: 10px;
+
+}
+
+.imgFrio4{
+  height: 230px;
+  margin-right: 200px;
+}
+
+.ImgFrioPag{
   margin-bottom: 40px;
 }
 
-.MeiosContato p{
-  font-weight: 200;
+
+
+/* Formulário */
+
+#formulárioProdutos{
+  background:#E5B911;
 }
 
+div.box {
+  width:100%;
+  position:relative;
+  top:40px;
+}
+
+.box h1{
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+span{
+  margin-left: 780px;
+}
+
+div.box label {
+  width:100%;
+  display: block;
+  padding:10px 0 10px 0;
+  text-align: center;
+}
+
+div.box label span {
+  display: block;
+  color:#181717;
+  font-size:20px;
+  font-weight: 600;
+  width:0px;
+  text-align:center;
+  padding:5px 20px 0 0;
+}
+
+div.box .input_text {
+  padding:10px 10px;
+  width:350px;
+  background:#e2dada;
+  border-bottom: 1px double #171717;
+  border-top: 1px double #171717;
+  border-left:1px double #333333;
+  border-right:1px double #333333;
+}
+
+div.box .message{
+  padding:7px 7px;
+  width:350px;
+  background:#e6dfdf;
+  border-bottom: 1px double #171717;
+  border-top: 1px double #171717;
+  border-left:1px double #333333;
+  border-right:1px double #333333;
+  overflow:hidden;
+  height:150px;
+  margin-left: 155px;
+}
+
+div.box .button{
+  margin:0 0 30px 0;
+  padding:4px 7px;
+  background:rgb(36, 35, 35);
+  color: #E5B911;
+  font-size: 16px;
+  border:0px;
+  position: relative;
+  top:50px;
+  left:-355px;
+  width:150px;
+  height: 50px;
+  margin-bottom: 120px;
+}
+div.box .button:hover{
+  background:rgb(236, 229, 229);
+  color: #141413;
+  border-bottom: 1px double #171717;
+  border-top: 1px double #171717;
+  border-left:1px double #333333;
+  border-right:1px double #333333;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+
+
+
+/* PÁG  portifólio */
+
+#PortifolioSec {
+  background: transparent;
+  margin-top: 20px;
+}
+
+
+.btnPortifolioDiv{
+  background: transparent;
+  text-align: center;
+  padding: 60px;
+  margin-bottom: -10px;
+}
+  
+.btnPortifolioDiv .btnPortifolio{
+  background-color: #E5B911;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(36, 35, 35);
+  margin-top: -30px;
+}
+
+.btnPortifolioDiv .btnPortifolio:hover{
+  background-color: #c09d0f;
+  color: rgb(36, 35, 35);
+
+}
+
+.PortifolioDiv{
+  margin-left: 385px;
+  margin-top: -70px;
+}
+
+.linha1Port{
+  max-width: 100%;
+  margin-bottom: 20px;
+  margin-top: 90px;
+}
+.imgPort1{
+  width: 800px;
+}
+
+.imgPort2{
+  width: 350px;
+  margin-left: 20px;
+}
+
+
+.linha2Port{
+  max-width: 100%;
+  margin-bottom: -10px;
+}
+.imgPort4{
+  width: 575px;
+  margin-left: 20px;
+}
+.imgPort3{
+  width: 575px;
+
+}
+/* ----------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+/* PÁG  ORÃMENTO */
+
+/* Formulário */
+
+#formulárioContato{
+  background:transparent;
+}
+
+div.boxx{
+  width:100%;
+  position:relative;
+  top:40px;
+}
+
+.boxx h1{
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+span{
+  margin-left: 780px;
+}
+
+div.boxx label {
+  width:100%;
+  display: block;
+  padding:10px 0 10px 0;
+  text-align: center;
+}
+
+div.boxx label span {
+  display: block;
+  color:#181717;
+  font-size:20px;
+  font-weight: 600;
+  width:0px;
+  text-align:center;
+  padding:5px 20px 0 0;
+}
+
+div.boxx .input_text {
+  padding:10px 10px;
+  width:350px;
+  background:#ffffff;
+  border-bottom: 1px double #171717;
+  border-top: 1px double #171717;
+  border-left:1px double #333333;
+  border-right:1px double #333333;
+}
+
+div.boxx .message{
+  padding:7px 7px;
+  width:350px;
+  background:#ffffff;
+  border-bottom: 1px double #171717;
+  border-top: 1px double #171717;
+  border-left:1px double #333333;
+  border-right:1px double #333333;
+  overflow:hidden;
+  height:150px;
+  margin-left: 155px;
+}
+
+div.boxx .button{
+  margin:0 0 30px 0;
+  padding:4px 7px;
+  background:#E5B911;
+  color: rgb(36, 35, 35);
+  font-size: 16px;
+  border:0px;
+  position: relative;
+  top:50px;
+  left:-355px;
+  width:150px;
+  height: 50px;
+  margin-bottom: 120px;
+}
+div.boxx .button:hover{
+  background:#c09d0f;
+  color: #141413;
+}
